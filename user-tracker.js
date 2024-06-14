@@ -24,6 +24,7 @@ const clientId = document.currentScript.dataset.client || '';
     },
     body: JSON.stringify({
       pageUrl: window.location.href,
+      visitId: uuid
     }),
   });
 
